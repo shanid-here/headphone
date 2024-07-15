@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.img1{
+    width: 100%;
+    height: 100vh;
+
+}
+.head{
+    margin-top: -500px;
+    margin-left: 50px;
+    font-weight:lighter;
+
+}
+.para{
+    /* margin-top: -400px; */
+    margin-left: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.btn{
+    border-radius: 50px;
+     background-color: aliceblue;
+    margin-top: 25px;
+}
+.head2{
+    margin-top: 25px;
+    margin-left: 75px;
+    font-weight: bolder;
+    padding: 25px;
+    
+    
+}
+.para2{
+    margin: 25px;
+    font-size:large;
+    font-weight: lighter;
+}
+.bg{
+    background-color:goldenrod;
+
+    
+
+    
+}
+.head3{
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    justify-content: center;
+}
+.head4{
+    padding: 10px;
+    margin-left: 75px;
+    padding-top: 30px;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    
+}
+.cardhead{
+    color: white;
+    font-weight: bolder;
+
+}
+.card-body{
+    background-color: goldenrod;
+
+}
+.card-text{
+    color: white;
+}
+.head5{
+    margin-left: 75px;
+    margin-top: 30px;
+    font-weight: bolder ;
+}
+.img-thumbnail{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+.new{
+    padding: 30px;
+    margin-left: 80px;
+}
+.bg2{
+    background-color:goldenrod;
+    height: 50px;
+    
+}
+.head6{
+    color: white;
+    font-weight: normal;
+    margin-left: 150px;
+    padding-top: 25px;
+    
+}
+.para3{
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 150px;
+
+}
+.btn1{
+    margin-top:-500px;
+    margin-left: 75%;
+    margin-bottom: 20px;
+
+}
+.head7{
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+}
+h1{
+    color: goldenrod;
+    font-size: 500%;
+}
+.subhead{
+    font-weight: bold;
+    margin-top: -72px;
+}
+.paragraph{
+    margin: 25px;
+}
+.head8{
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.card-img-top:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.btnn{
+    margin-left: 75%;
+    margin-top: -50px;
+    border-radius: none;
+
+}
+/* Container holding the image and the text */
+.contain{
+    background: rgb(250, 200, 101);
+}
+.cont {
+    position: relative;
+    
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+  
+  /* Top left text */
+  .top-left {
+    text-align: left;
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    font-size: 45px;
+    font-weight: bolder;
+  }
+  
+  /* Top right text */
+  .btn {
+    position: absolute;
+    top: 52%;
+    left: 10%;
+  }
+  .bt10{
+    background-color: blanchedalmond;
+    left: 10px;
+    top: 5px;
+  }
+  
+ /* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(250, 200, 101);
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  border: px solid black;
+  color: #000000;
+  background: #ffd70e;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+/* .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #ffd70e;
+ color:white;
+}
+.img-thumbnail:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
